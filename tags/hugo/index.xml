@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on 夏天的自媒体博客</title>
+        <link>https://xiaoella2025.github.io/tags/hugo/</link>
+        <description>Recent content in Hugo on 夏天的自媒体博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoella2025.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何使用Hugo搭建个人博客</title>
+        <link>https://xiaoella2025.github.io/post/hugo-blog-guide/</link>
+        <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoella2025.github.io/post/hugo-blog-guide/</guid>
+        <description>&lt;img src="https://xiaoella2025.github.io/img/hugo-guide.jpg" alt="Featured image of post 如何使用Hugo搭建个人博客" /&gt;&lt;h2 id=&#34;hugo博客搭建指南&#34;&gt;Hugo博客搭建指南
+&lt;/h2&gt;&lt;p&gt;Hugo是一个快速、现代的静态网站生成器，非常适合用来搭建个人博客。本文将介绍如何使用Hugo搭建一个漂亮的个人博客。&lt;/p&gt;
+&lt;h3 id=&#34;为什么选择hugo&#34;&gt;为什么选择Hugo？
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;超快的构建速度&lt;/li&gt;
+&lt;li&gt;简单的配置过程&lt;/li&gt;
+&lt;li&gt;丰富的主题选择&lt;/li&gt;
+&lt;li&gt;强大的内容管理&lt;/li&gt;
+&lt;li&gt;完善的文档支持&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;搭建步骤&#34;&gt;搭建步骤
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装Hugo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载Hugo扩展版&lt;/li&gt;
+&lt;li&gt;配置环境变量&lt;/li&gt;
+&lt;li&gt;验证安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建新站点&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装主题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择喜欢的主题&lt;/li&gt;
+&lt;li&gt;下载并配置主题&lt;/li&gt;
+&lt;li&gt;修改配置文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建内容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编写Markdown文章&lt;/li&gt;
+&lt;li&gt;添加图片和其他媒体&lt;/li&gt;
+&lt;li&gt;设置文章属性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地预览&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;部署方法&#34;&gt;部署方法
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub Pages部署&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建仓库&lt;/li&gt;
+&lt;li&gt;推送代码&lt;/li&gt;
+&lt;li&gt;配置GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他部署选项&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Netlify&lt;/li&gt;
+&lt;li&gt;Vercel&lt;/li&gt;
+&lt;li&gt;个人服务器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;进阶技巧&#34;&gt;进阶技巧
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;自定义主题&lt;/li&gt;
+&lt;li&gt;添加评论系统&lt;/li&gt;
+&lt;li&gt;配置搜索功能&lt;/li&gt;
+&lt;li&gt;优化SEO设置&lt;/li&gt;
+&lt;li&gt;添加统计分析&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;维护建议&#34;&gt;维护建议
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;定期更新Hugo版本&lt;/li&gt;
+&lt;li&gt;备份重要内容&lt;/li&gt;
+&lt;li&gt;监控网站性能&lt;/li&gt;
+&lt;li&gt;保持文章更新&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;欢迎大家尝试使用Hugo搭建自己的博客！如果遇到问题，可以查看&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/documentation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo官方文档&lt;/a&gt;或在评论区讨论。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
